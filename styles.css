@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.container {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+  transition: all 0.1s;
+}
+section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  scroll-snap-align: start;
+}
+.first {
+  background-color: aqua;
+}
+.second {
+  background-color: blueviolet;
+}
+.third {
+  background-color: crimson;
+}
+.fourth {
+  background-color: pink;
+}
